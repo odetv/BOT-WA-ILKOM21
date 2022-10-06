@@ -1,4 +1,4 @@
-# CATATAN ( NOTE )
+# CATATAN
 SC ini hanyalah hasil recode dari SC asli hisoka
 Kita hanya menghilangkan bug, memperbagus & menyeting banyak hal
 agar tidak terjadi error
