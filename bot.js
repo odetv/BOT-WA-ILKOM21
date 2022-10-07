@@ -2776,8 +2776,8 @@ let alfamart = `628111500959@s.whatsapp.net`
             case 'menu': {
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
-            let jawab = `*${ucapanWaktu}*
-
+            //let jawab = `*${ucapanWaktu}*
+`
 Kreator : @${ownernya.split('@')[0]}
 Nama BOT : BOT-ILKOM21
 Prefix : Multi Prefix
@@ -2804,7 +2804,7 @@ Berikut fitur yang tersedia :
             await bot.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments})
             }
             break
-            case 'menu': {
+            case 'help': {
                 let ownernya = ownernomer + '@s.whatsapp.net'
                 let me = m.sender
                 let jawab = `*${ucapanWaktu}*
