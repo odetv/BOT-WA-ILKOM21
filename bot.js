@@ -2777,8 +2777,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
             //let jawab = `*${ucapanWaktu}*
-            let jawab = `
-👑Kreator : @${ownernya.split('@')[0]}
+            let jawab = `👑Kreator : @${ownernya.split('@')[0]}
 🤖Nama BOT : BOT-ILKOM21
 ⚙️Prefix : Multi Prefix
 💾Database : Google Spreadsheet & GitHub
@@ -2808,8 +2807,7 @@ Berikut fitur yang tersedia :
                 let ownernya = ownernomer + '@s.whatsapp.net'
                 let me = m.sender
                 //let jawab = `*${ucapanWaktu}*
-                let jawab = `
-Hai ${pushname}, saya adalah BOT-ILKOM21
+                let jawab = `Hai ${pushname}, saya adalah BOT-ILKOM21
 Berikut Panduan Penggunaan BOT-ILKOM21 :
 
 DAFTAR NAMA & KODE MK ILKOM21 :
