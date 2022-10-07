@@ -2777,13 +2777,12 @@ let alfamart = `628111500959@s.whatsapp.net`
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
             //let jawab = `*${ucapanWaktu}*
-`
-Kreator : @${ownernya.split('@')[0]}
-Nama BOT : BOT-ILKOM21
-Prefix : Multi Prefix
-Database : Google Spreadsheet & GitHub
-Integrated : Telegram & Whatsapp (Maintenance)
-Waktu : ${hariini} ${tengah} WITA
+`👑Kreator : @${ownernya.split('@')[0]}
+🤖Nama BOT : BOT-ILKOM21
+⚙️Prefix : Multi Prefix
+💾Database : Google Spreadsheet & GitHub
+📲Integrated : Telegram & Whatsapp (Maintenance)
+📆Waktu : ${hariini} ${tengah} WITA
 
 Hai ${pushname}, saya adalah BOT-ILKOM21
 Berikut fitur yang tersedia :
@@ -2807,10 +2806,10 @@ Berikut fitur yang tersedia :
             case 'help': {
                 let ownernya = ownernomer + '@s.whatsapp.net'
                 let me = m.sender
-                let jawab = `*${ucapanWaktu}*
+                //let jawab = `*${ucapanWaktu}*
     
-    Hai ${pushname}, saya adalah BOT-ILKOM21
-    Berikut Panduan Penggunaan BOT-ILKOM21 :
+`Hai ${pushname}, saya adalah BOT-ILKOM21
+Berikut Panduan Penggunaan BOT-ILKOM21 :
 
 DAFTAR NAMA & KODE MK ILKOM21 :
 ➡️ Aljabar Linier [KOMS120301]
