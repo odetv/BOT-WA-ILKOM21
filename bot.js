@@ -2799,7 +2799,7 @@ Berikut fitur yang tersedia :
 11. Catat Tugas
 12. Panduan BOT (Ketik /help)`
             let ments = [ownernya, me, ini_mark]
-            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
+            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'help', buttonText: { displayText: '❗Help' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await bot.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments})
             }
             break
@@ -2866,7 +2866,7 @@ ketik /tugas-Matakuliah-Kelas-Deadline-Keterangan
 Contoh :
 /tugas-Statistik-A-2022/09/01-Tugas 1`
                 let ments = [ownernya, me, ini_mark]
-                let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
+                let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'help', buttonText: { displayText: '❗Help' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
                 await bot.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments})
                 }
                 break
