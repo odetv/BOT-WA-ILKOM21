@@ -2777,33 +2777,102 @@ let alfamart = `628111500959@s.whatsapp.net`
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
             let jawab = `*${ucapanWaktu}*
-╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
-├ *Nama* : ${pushname}
-├ *Number* : @${me.split('@')[0]}
-├ *Premium* : ${isPremium ? '✅' : `❌`}
-├ *Limit* : ${isPremium ? '♾Infinity' : `〽️${db.data.users[m.sender].limit}`}
-╰──❍
 
-╭──❍「 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 」❍
-├ *Nama Bot* : ${pushname}
-├ *Powered* : @${ini_mark.split('@')[0]}
-├ *Owner* : @${ownernya.split('@')[0]}
-├ *Mode* : ${bot.public ? 'Public' : `Self`}
-├ *Prefix* :「 MULTI-PREFIX 」
-╰──❍
+Kreator : @${ownernya.split('@')[0]}
+Nama BOT : BOT-ILKOM21
+Prefix : Multi Prefix
+Database : Google Spreadsheet & GitHub
+Integrated : Telegram & Whatsapp (Maintenance)
+Waktu : ${hariini} ${tengah} WITA
 
-╭──❍「 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼𝙉 𝙏𝙄𝙈𝙀 」❍
-├ *Hari Ini* : ${hariini}
-├ *Wib* : ${barat} WIB
-├ *Wita* : ${tengah} WITA
-├ *Wit* : ${timur} WIT
-╰──❍`
+Hai ${pushname}, saya adalah BOT-ILKOM21
+Berikut fitur yang tersedia :
+1. Cek Identitas Mahasiswa
+2. Cek Rekapitulasi Absensi
+3. Link Absensi
+4. Link Meeting
+5. Link Record
+6. Cek Jadwal Kuliah
+7. Cek Tugas
+8. Cek Pengurus Kelas
+9. Tips Chat Dosen
+10. Input Absensi
+11. Catat Tugas
+12. Panduan BOT (Ketik /help)`
             let ments = [ownernya, me, ini_mark]
             let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await bot.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments})
             }
             break
-            case 'simplemenu': case 'list': case 'help': {
+            case 'menu': {
+                let ownernya = ownernomer + '@s.whatsapp.net'
+                let me = m.sender
+                let jawab = `*${ucapanWaktu}*
+    
+    Hai ${pushname}, saya adalah BOT-ILKOM21
+    Berikut Panduan Penggunaan BOT-ILKOM21 :
+
+DAFTAR NAMA & KODE MK ILKOM21 :
+➡️ Aljabar Linier [KOMS120301]
+➡️ Pemrograman Berorientasi Obyek [KOMS120302]
+➡️ Statistik [KOMS120303]
+➡️ Matematika Diskrit [KOMS120304]
+➡️ Metode Numerik [KOMS120305]
+➡️ Teknologi Web [KOMS120306]
+➡️ Jaringan Komputer [KOMS120307]
+➡️ Komputer Masyarakat [KOMS120308]
+➡️ Praktikum Jaringan Komputer [KOMS120309]
+
+DAFTAR KELAS ILKOM21 :
+➡️ A
+➡️ B
+➡️ IKI
+
+1. Cek Identitas Mahasiswa
+ketik /NIM
+Contoh : /2115101014
+
+2. Cek Rekapitulasi Absensi
+ketik /KodeMK#NIM
+Contoh : /KOMS120301#2115101014
+
+3. Link Absensi
+ketik /LinkAbsen
+
+4. Link Meeting
+ketik /LinkMeet
+
+5. Link Record
+ketik /LinkRecord
+
+6. Cek Jadwal Kuliah (Hari ini atau Besok)
+ketik /JadwalSekarang
+ketik /JadwalBesok
+
+7. Cek Tugas
+ketik /CekTugas
+
+8. Cek Pengurus Kelas
+ketik /PengurusKelas
+
+9. Tips Chat Dosen
+ketik /ChatDosen
+
+10. Input Absensi
+ketik /absen-Matakuliah-Kelas-Nama Lengkap-Keterangan
+Contoh :
+/absen-Statistik-A-Putu-Hadir
+
+11. Catat Tugas
+ketik /tugas-Matakuliah-Kelas-Deadline-Keterangan
+Contoh :
+/tugas-Statistik-A-2022/09/01-Tugas 1`
+                let ments = [ownernya, me, ini_mark]
+                let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
+                await bot.sendButtonText(m.chat, buttons, jawab, nyoutube, m, {mentions: ments})
+                }
+                break
+            case 'simplemenu': case 'list': {
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
             let ments = [ownernya, me, ini_mark]
