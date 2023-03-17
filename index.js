@@ -65,7 +65,7 @@ async function startBot() {
     const bot = botConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Bot Multi Device','Safari','1.0.0'],
+        browser: ['BOT-WA-UTAMA-ILKOM21','Safari','1.0.0'],
         auth: state
     })
 
